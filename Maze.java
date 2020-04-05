@@ -79,8 +79,9 @@ public class Maze
             }
             else
             {
+
                 case Maze.EMPTY:
-			grid[currentRow][currentCol] = Maze.VISITED;
+			grid[Row][Col] = Maze.VISITED;
 			break;
 
 		case Maze.WALL:
@@ -96,6 +97,7 @@ public class Maze
 
 		default:
 			// Do nothing
+
             }
             
             charIndex++;
